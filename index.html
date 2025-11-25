@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Coding with Vibe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+</head>
+
+<body data-bs-theme="dark">
+    <div class="container">
+        <nav class="navbar bg-secondary p-3 rounded-4 mb-4 mt-4">
+            <a class="navbar-brand ms-5 text-white" href="#">Coding with Vibe</a>
+        </nav>
+        <div class="row mt-5">
+            <div class="col-12 col-lg-4">
+                <img class="img-fluid" src="assets/img/heroImg.svg" alt="Hero Image" />
+            </div>
+            <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-center">
+                <div class="h1" id="header-text"></div>
+                <div class="h4 text-secondary mt-2">
+                    Boost your productivity with music while you code
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            
+        </div>
+    </div>
+
+    <script>
+        const headerText = document.getElementById("header-text");
+        const text = "Listen to some music artist while coding...";
+        let i = 0;
+
+        function type() {
+            headerText.innerHTML = text.slice(0, i++);
+            if (i <= text.length) {
+                setTimeout(type, 50);
+            }
+        }
+        type();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
