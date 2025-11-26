@@ -6,7 +6,7 @@ const artists = [
         artists: [
             {
                 name: "Kiyo",
-                image: "opm/Kiyo.png",
+                image: "opm/kiyo.png",
                 description: 'Filipino rapper and musician Yukihiro Rubio is better known by his stage name Kiyo. His songs <a class="text-success" href="'+ trackLink +'5y6BAZxYtjqyAz4AiuQxTp" target="_blank">"Ikaw Lang"</a>, <a class="text-success" href="'+ trackLink +'4Vt1reORHK1qkDcEhE1JXd" target="_blank">"Eba"</a>, and <a class="text-success" href="'+ trackLink +'4t03pPBhaPAKpfgyrqgOBm" target="_blank">"Ano Na?"</a> are well-known.',
                 spotifyId: "6gcteR920pLEynlHzjSRYd"
             },
