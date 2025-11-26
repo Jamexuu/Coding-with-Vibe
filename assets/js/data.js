@@ -54,7 +54,7 @@ const artists = [
             },
             {
                 name: "Eraserheads",
-                image: "opm/eraserheads.png",
+                image: "opm/eraserHeads.png",
                 description: "The Eraserheads are a pioneering Filipino rock band, often called the “Beatles of the Philippines,” who helped lead the 1990s rock movement.",
                 spotifyId: "7374lH6kwx9uQATYQ9H3Cp"
             },
