@@ -2,65 +2,65 @@ const trackLink = "https://open.spotify.com/track/";
 const albumLink = "https://open.spotify.com/album/";
 const artists = [
     {
-        category: "international",
+        category: "foreign",
         artists: [
             {
                 name: "Luke Chiang",
-                image: "international/lukeChiang.png",
+                image: "foreign/lukeChiang.png",
                 description: 'Luke\'s song <a class="text-success" href="' + trackLink + '7F6PtLP6fJPVtA1FWVkl8K" target="_blank">"Shouldn\'t Be,"</a> which he published in 2019, immediately grabbed popularity.',
                 spotifyId: "1dPSMH55yhvjYIwqCP4iDj"
             },
             {
                 name: "The Weeknd",
-                image: "international/theWeeknd.png",
+                image: "foreign/theWeeknd.png",
                 description: 'The Weeknd is famous for his distinctive blend of R&B and pop music, a soaring falsetto vocal style, and a string of successful hits like <a class="text-success" href="' + trackLink + '0VjIjW4GlUZAMYd2vXMi3b" target="_blank">"Blinding Lights"</a> and <a class="text-success" href="' + trackLink + '7fBv7CLKzipRk6EC6TWHOB" target="_blank">"The Hills".</a>',
                 spotifyId: "1Xyo4u8uXC1ZmMpatF05PJ"
             },
             {
                 name: "Keshi",
-                image: "international/keshi.png",
+                image: "foreign/keshi.png",
                 description: 'Keshi is a Vietnamese-American artist known for his soulful, introspective R&B that blends lo-fi, hip-hop, and indie. He rose to fame through his emotive tracks and gained wider recognition with his debut album <a class="text-success" href="' + albumLink + '1WVIJaAboRSwJOe4u0n0Q7" target="_blank">Gabriel.</a>',
                 spotifyId: "3pc0bOVB5whxmD50W79wwO"
             },
             {
                 name: "Bruno Major",
-                image: "international/brunoMajor.png",
+                image: "foreign/brunoMajor.png",
                 description: 'Bruno Major is famous for his intimate, jazzy-pop and R&B music, featuring poetic lyrics and emotive vocals. He is also known for his viral hit songs like <a class="text-success" href="' + trackLink + '0RnxpSzxzwZgFQ0NahQr9K" target="_blank">"Easily"</a> and <a class="text-success" href="' + trackLink + '1lORkxEMmsCZqhoxcmk3A3" target="_blank">"Nothing,"</a> and for his self-written and self-produced debut album, <a class="text-success" href="' + albumLink + '3IGPQEGAiZZI4Iba81GNq5">"A Song For Every Moon".</a>',
                 spotifyId: "0hDjKSKjl1DC7ovYTDJHe8"
             },
             {
                 name: "Joji",
-                image: "international/joji.png",
+                image: "foreign/joji.png",
                 description: "Joji is famous for his music career as a R&B and lo-fi hip-hop singer and record producer, but was previously known as the viral YouTuber Filthy Frank. ",
                 spotifyId: "3MZsBdqDrRTJihTHQrO6Dq"
             },
             {
                 name: "Niki",
-                image: "international/niki.png",
+                image: "foreign/niki.png",
                 description: 'NIKI is an Indonesian singer-songwriter famous for her global music career, including hits like <a class="text-success" href="' + trackLink + '68HocO7fx9z0MgDU0ZPHro" target="_blank">"Every Summertime,"</a> performing at major venues, and being a prominent artist signed to the record label 88rising.',
                 spotifyId: "2kxP07DLgs4xlWz8YHlvfh"
             },
             {
                 name: "The 1975",
-                image: "international/the1975.png",
+                image: "foreign/the1975.png",
                 description: "The 1975 is famous for their unique blend of genres, ranging from indie pop to synth-pop, their distinctive and often witty lyrics, and their constant artistic reinventions.",
                 spotifyId: "3mIj9lX2MWuHmhNCA7LSCW"
             },
             {
                 name: "Bruno Mars",
-                image: "international/brunoMars.png",
+                image: "foreign/brunoMars.png",
                 description: 'Bruno Mars is known for his catchy pop-R&B-funk hits, energetic retro-style performances, and versatile vocals, with hits like <a class="text-success" href="' + trackLink + '32OlwWuMpZ6b0aN2RZOeMS" target="_blank">"Uptown Funk"</a> and <a class="text-success" href="' + albumLink + '6b8Be6ljOzmkOmFslEb23P" target="_blank">"24K Magic."</a>',
                 spotifyId: "0du5cEVh5yTK9QJze8zA0C"
             },
             {
                 name: "Laufey",
-                image: "international/laufey.png",
+                image: "foreign/laufey.png",
                 description: 'Laufey is known for her jazz- and classical-inspired pop, rich alto voice, and viral social media success, with her 2023 album "<a class="text-success" href="' + albumLink + '0pfpeTGQOWlGp6YUUbBD42" target="_blank">Bewitched</a>" winning a Grammy.',
                 spotifyId: "7gW0r5CkdEUMm42w9XpyZO"
             },
             {
                 name: "Phum Viphurit",
-                image: "international/phumViphurit.png",
+                image: "foreign/phumViphurit.png",
                 description: 'Phum Viphurit is known for his 2018 hit <a class="text-success" href="' + trackLink + '2rd4FH1cSaWGc0ZiUaMbX9" target="_blank">"Lover Boy"</a> and his breezy, genre-blending style of neo-soul, indie pop, and tropical funk, often called “hazy sunshine music.”',
                 spotifyId: "5mqguTgtaoCMNMZD6txCh6"
             }
